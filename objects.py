@@ -1,7 +1,7 @@
 import pyglet
 from math import sin, cos, radians, pi, sqrt
 from random import randint
-WINDOW_WIDTH, WINDOW_HEIGHT = 1366, 768
+WINDOW_WIDTH, WINDOW_HEIGHT = 1300, 700 #1366, 768
 MAP_X, MAP_Y = 20000, 20000
 METEORS = 3000
 fps = 144
@@ -154,7 +154,7 @@ class SpaceObject(object):
         self.rotation = 0
         self.in_window = 1
         self.sprite = pyglet.sprite.Sprite(self.image, batch=batch, group=pyglet.graphics.OrderedGroup(1))
-        self.hitbox = (self.image.width / 2) if self.image.width > self.image.height else (self.image.height / 2)
+        self.hitbox = (self.image.width / 2) if self.image.width < self.image.height else (self.image.height / 2)
     
     def refresh(self):
         self.winx = self.x - (space_things[0].x - window.width // 2)
@@ -266,8 +266,6 @@ class Meteor(SpaceObject):
         self.name = 'meteor'
         #pyglet.clock.schedule_interval(self.tick, 1 / fps)
 
-    def tick(self, dt):
-        self.refresh()
 
 """_______________________________EVENTS____________________________________"""
 @window.event
