@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4614f47-2d6a-489b-b567-6f2b53ab3572" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Backgrounds/black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Backgrounds/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Backgrounds/darkPurple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Backgrounds/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/kenvector_future.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/kenvector_future_thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/sfx_laser1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/sfx_laser2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/sfx_lose.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/sfx_shieldDown.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/sfx_shieldUp.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/sfx_twoTone.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Bonus/sfx_zap.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip1_damage1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip1_damage2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip1_damage3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip2_damage1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip2_damage2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip2_damage3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip3_damage1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip3_damage2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Damage/playerShip3_damage3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/fire19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/shield1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/shield2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/shield3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/speed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/star1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/star2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Effects/star3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlack1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlack2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlack3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlack4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlack5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlue1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlue2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlue3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlue4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyBlue5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyGreen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyGreen2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyGreen3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyGreen4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyGreen5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyRed1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyRed2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyRed3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyRed4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Enemies/enemyRed5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserBlue16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserGreen16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Lasers/laserRed16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_big1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_big2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_big3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_big4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_med1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_med3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_small1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_small2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_tiny1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorBrown_tiny2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_big1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_big2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_big3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_big4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_med1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_med2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_small1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_small2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_tiny1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Meteors/meteorGrey_tiny2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beam0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beam1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beam2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beam3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beam4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beam5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beam6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beamLong1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/beamLong2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitBlue_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitBlue_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitBlue_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitBlue_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitBlue_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitBlue_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitBlue_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitBlue_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitGreen_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitGreen_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitGreen_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitGreen_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitGreen_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitGreen_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitGreen_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitGreen_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitRed_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitRed_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitRed_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitRed_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitRed_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitRed_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitRed_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitRed_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitYellow_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitYellow_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitYellow_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitYellow_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitYellow_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitYellow_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitYellow_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/cockpitYellow_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/engine1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/engine2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/engine3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/engine4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/engine5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/gun10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/scratch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/scratch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/scratch3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/turretBase_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/turretBase_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingBlue_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingBlue_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingBlue_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingBlue_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingBlue_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingBlue_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingBlue_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingBlue_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingGreen_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingGreen_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingGreen_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingGreen_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingGreen_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingGreen_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingGreen_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingGreen_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingRed_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingRed_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingRed_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingRed_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingRed_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingRed_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingRed_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingRed_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingYellow_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingYellow_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingYellow_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingYellow_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingYellow_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingYellow_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingYellow_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Parts/wingYellow_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/bold_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/bolt_bronze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/bolt_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/pill_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/pill_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/pill_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/pill_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupBlue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupBlue_bolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupBlue_shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupBlue_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupGreen_bolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupGreen_shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupGreen_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupRed_bolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupRed_shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupRed_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupYellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupYellow_bolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupYellow_shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/powerupYellow_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/shield_bronze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/shield_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/shield_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/star_bronze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/star_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/star_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/things_bronze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/things_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/Power-ups/things_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/buttonBlue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/buttonGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/buttonRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/buttonYellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeral9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/numeralX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife1_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife1_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife1_orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife1_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife2_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife2_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife2_orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife2_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife3_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife3_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife3_orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/UI/playerLife3_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip1_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip1_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip1_orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip1_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip2_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip2_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip2_orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip2_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip3_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip3_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip3_orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/playerShip3_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/ufoBlue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/ufoGreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/ufoRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/PNG/ufoYellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Spritesheet/sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Spritesheet/sheet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Vector/sheet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/Vector/sheet.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceShooterRedux/sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="objects.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/objects.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-692">
+              <caret line="216" column="30" lean-forward="true" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/game.py" />
+        <option value="$PROJECT_DIR$/source.py" />
+        <option value="$PROJECT_DIR$/objects.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="495" />
+    <option name="y" value="66" />
+    <option name="width" value="1400" />
+    <option name="height" value="988" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4r04-space-game-Wunson" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.source">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <module name="4r04-space-game-romansvozil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="source" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="4r04-space-game-romansvozil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.source" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.source" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4614f47-2d6a-489b-b567-6f2b53ab3572" name="Default" comment="" />
+      <created>1542135471370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542135471370</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="1032" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1180334536/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="811" column="8" selection-start-line="811" selection-start-column="8" selection-end-line="811" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-692">
+          <caret line="216" column="30" lean-forward="true" selection-start-line="216" selection-start-column="30" selection-end-line="216" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
