@@ -1,10 +1,5 @@
-#!/usr/bin/python
-
 import time, socket, threading
-
-BROADCAST_IP = '<broadcast>'
-PORT = 60088 #int(input('Write port number please..: '))
-BUFFER_SIZE = 1024
+from . import config
 
 
 class Client():
@@ -25,13 +20,14 @@ class Client():
 		self.find_server_thread = threading.Thread(target=self.broadcast_find_server).start()
 		time.sleep(1.5)
 		self.find_server_bool = False
+		self.client_thread = None
 
 	def broadcast_find_server(self):
 		sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 		sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-		sock.bind((BROADCAST_IP, PORT))
+		sock.bind((config.BROADCAST_IP, config.PORT))
 		while self.find_server_bool:
-			data, addr = sock.recvfrom(BUFFER_SIZE)
+			data, addr = sock.recvfrom(config.BUFFER_SIZE)
 			data = (data.decode()).split()
 			if data[0] == 'spacegame' and not(data[1] in self.found_servers):
 				self.found_servers[data[1]] = addr[0]
@@ -40,7 +36,7 @@ class Client():
 
 	def receive_from_server(self):
 		while self.client_status:
-			data, addr = self.client_socket.recvfrom(BUFFER_SIZE)
+			data, addr = self.client_socket.recvfrom(config.BUFFER_SIZE)
 			#data = data.decode()
 			self.data_received.append(data)
 			if data == b'END':
@@ -55,7 +51,7 @@ class Client():
 
 		while self.client_status:
 			if self.data_to_send:
-				self.client_socket.sendto(self.data_to_send[0].encode(), (addr, PORT))
+				self.client_socket.sendto(self.data_to_send[0].encode(), (addr, config.PORT))
 				print('Message "{}" has been sent.. '.format(self.data_to_send[0]))
 				self.data_to_send.remove(self.data_to_send[0])
 				time.sleep(1/2000)

@@ -1,12 +1,5 @@
-#!/usr/bin/python
-
 import time, socket, threading
-
-
-BROADCAST_IP = '<broadcast>'
-PORT = 60088 #int(input('Write port number please..: '))
-BUFFER_SIZE = 1024
-
+from . import config
 
 
 class Server():
@@ -25,7 +18,7 @@ class Server():
         self.data_received = []
 
         self.find_client_thread = threading.Thread(target=self.broadcast_find_client).start()
-        self.server_thread = threading.Thread(target=self.server_start).start()
+        self.server_thread = None
 
     def broadcast_find_client(self):
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -33,14 +26,14 @@ class Server():
         sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         print('Socket for broadcast was created.. ')
         while self.find_client_bool:
-            sock.sendto(('spacegame {}'.format(self.server_name)).encode(), (BROADCAST_IP, PORT))
+            sock.sendto(('spacegame {}'.format(self.server_name)).encode(), (config.BROADCAST_IP, config.PORT))
             time.sleep(1)
         sock.close()
         print('Broadcast socket has been closed.. ')
 
     def receive_from_client(self):
         while self.server_status:
-            data, addr = self.server_socket.recvfrom(BUFFER_SIZE)
+            data, addr = self.server_socket.recvfrom(config.BUFFER_SIZE)
             if not(addr == self.connected_client[0]):
                 self.connected_client = [addr, data]
                 print('Client {} has connected.. '.format(addr))
@@ -51,7 +44,7 @@ class Server():
     def server_start(self):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        self.server_socket.bind((self.my_ip, PORT))
+        self.server_socket.bind((self.my_ip, confg.PORT))
         print('Server socket has been created.. ')
         self.server_status = True
         self.receive_from_client_thread = threading.Thread(target=self.receive_from_client).start()
@@ -70,6 +63,7 @@ class Server():
 
 if __name__ == '__main__':
     server = Server('server')
+    server.server_thread = threading.Thread(target=self.server_start).start()
 
     #data = ['ahoj', 'jak', 'se', 'mas romco']
     #for i in range(0, len(data)):
