@@ -3,7 +3,7 @@ from . import util, config
 
 
 class SpaceObject(pyglet.sprite.Sprite):
-	
+
 	def __init__(self, *args, **kwargs):
 		super(SpaceObject, self).__init__(*args, **kwargs)
 
@@ -12,13 +12,13 @@ class SpaceObject(pyglet.sprite.Sprite):
 		self.yom = 0
 		self.on_screen = True
 		self.photo = self.image
-		
+
 		self.direction = 0
 		self.speed = 0
 		self.rspeed = 0
-		
+
 		self.dead = False
-		
+
 	def update(self, dt, hrac):
 		new_x = self.xom - (hrac[0] - config.WINDOW_WIDTH // 2)
 		new_y = self.yom - (hrac[1] - config.WINDOW_HEIGHT // 2)
@@ -38,9 +38,9 @@ class SpaceObject(pyglet.sprite.Sprite):
 			print('Someting has been rebuilt..')
 		else:
 			pass
-			
-		
-		
+
+
+
 	def collides_with(self, other_object):
 		collision_distance = self.image.width * 0.5 * self.scale \
                              + other_object.image.width * 0.5 * other_object.scale
@@ -50,4 +50,3 @@ class SpaceObject(pyglet.sprite.Sprite):
 	def handle_collision_with(self, other_object):
 		if other_object.__class__ is not self.__class__:
 			self.dead = True
-
