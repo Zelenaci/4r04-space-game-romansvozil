@@ -6,10 +6,10 @@ from . import spaceobject, resources, config
 class Player(spaceobject.SpaceObject):
 
 	def __init__(self, *args, **kwargs):
-		super(Player, self).__init__(img=resources.player_image,group=pyglet.graphics.OrderedGroup(2), *args, **kwargs)
+		super(Player, self).__init__(img=resources.my_ship_image, group=pyglet.graphics.OrderedGroup(2), *args, **kwargs)
 		self.scale = 1
 		self.thrust = 20
-		self.max_speed = 1700
+		self.max_speed = 3000
 		self.rotate_speed = 200
 		self.bullet_speed = 1000
 
@@ -17,14 +17,17 @@ class Player(spaceobject.SpaceObject):
 		#self.key_handler = key.KeyStateHandler()
 		#self.event_handlers = [self, self.key_handler]
 
-	def update(self, dt, wind):
-		super(Player, self).update(dt, wind)
+	def update(self, dt, my_ship):
+		super(Player, self).update(dt, my_ship)
 
-		self.xom = config.MAP_X if self.xom > config.MAP_X else self.xom
-		self.xom = 0 if self.xom < 0 else self.xom
+		self.xom += self.speed * dt * math.cos(math.pi / 2 - math.radians(self.rotation))
+		self.yom += self.speed * dt * math.sin(math.pi / 2 - math.radians(self.rotation))
 
-		self.yom = config.MAP_Y if self.yom > config.MAP_Y else self.yom
-		self.yom = 0 if self.yom < 0 else self.yom
+		self.xom = (config.MAP_X - self.smaller_side) if (self.xom + self.smaller_side) > config.MAP_X else self.xom
+		self.xom = self.smaller_side if self.xom < self.smaller_side else self.xom
+
+		self.yom = (config.MAP_Y - self.smaller_side) if (self.yom + self.smaller_side) > config.MAP_Y else self.yom
+		self.yom = self.smaller_side if self.yom < self.smaller_side else self.yom
 
 
 		if key.LEFT in self.pressed_keys:
