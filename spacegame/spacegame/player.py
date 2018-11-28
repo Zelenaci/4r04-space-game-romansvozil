@@ -1,6 +1,6 @@
 import pyglet, math
 from pyglet.window import key
-from . import spaceobject, resources, config
+from . import spaceobject, resources, config, bullet
 
 
 class Player(spaceobject.SpaceObject):
@@ -9,7 +9,7 @@ class Player(spaceobject.SpaceObject):
 		super(Player, self).__init__(img=resources.my_ship_image, group=pyglet.graphics.OrderedGroup(2), *args, **kwargs)
 		self.scale = 1
 		self.thrust = 20
-		self.max_speed = 3000
+		self.max_speed = 1200
 		self.rotate_speed = 200
 		self.bullet_speed = 1000
 
@@ -40,3 +40,11 @@ class Player(spaceobject.SpaceObject):
 		if key.UP in self.pressed_keys:
 			self.speed = (self.speed + self.thrust) if self.speed <= \
 						self.max_speed else self.max_speed
+
+	def make_bullet(self, batch=None):
+		fired_bull = bullet.Bullet(batch=batch)
+		fired_bull.xom = self.xom + math.sin(math.radians(self.rotation)) * self.smaller_side
+		fired_bull.yom = self.yom + math.cos(math.radians(self.rotation)) * self.smaller_side
+		fired_bull.speed = self.speed * 2 + 1000
+		fired_bull.rotation = self.rotation
+		return fired_bull

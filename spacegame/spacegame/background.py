@@ -10,6 +10,6 @@ class BackGround(pyglet.sprite.Sprite):
         self.scy = (self.height - config.WINDOW_HEIGHT) / config.MAP_Y
         self.x, self.y = 0, 0
 
-    def update(self, hrac):
-        self.x = - hrac[0] * self.scx
-        self.y = - hrac[1] * self.scy
+    def update(self, player):
+        self.x = - player.xom * self.scx
+        self.y = - player.yom * self.scy
